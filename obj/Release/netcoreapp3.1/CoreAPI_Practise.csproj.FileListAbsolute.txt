@@ -1,0 +1,21 @@
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\appsettings.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\WebApplication120230909202704 - Web Deploy\profile.arm.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\CoreAPI_Practise.exe
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\CoreAPI_Practise.deps.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\CoreAPI_Practise.runtimeconfig.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\CoreAPI_Practise.runtimeconfig.dev.json
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\CoreAPI_Practise.dll
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\bin\Release\netcoreapp3.1\CoreAPI_Practise.pdb
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.csproj.AssemblyReference.cache
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.AssemblyInfoInputs.cache
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.AssemblyInfo.cs
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.csproj.CoreCompileInputs.cache
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.MvcApplicationPartsAssemblyInfo.cache
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.RazorTargetAssemblyInfo.cache
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\staticwebassets\CoreAPI_Practise.StaticWebAssets.Manifest.cache
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\staticwebassets\CoreAPI_Practise.StaticWebAssets.xml
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.dll
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.pdb
+D:\Anand\DotnetCoreEntityFrameworkPractise\CoreAPI_Practise\obj\Release\netcoreapp3.1\CoreAPI_Practise.genruntimeconfig.cache
