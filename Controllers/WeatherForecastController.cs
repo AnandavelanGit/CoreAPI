@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreAPI_Practise.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using CoreAPI_Practise.Repository;
+using CoreAPI_Practise.Contracts;
+
 
 namespace CoreAPI_Practise.Controllers
 {
@@ -18,12 +22,16 @@ namespace CoreAPI_Practise.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private IWeatherRepository _weatherRepository;
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IWeatherRepository weatherRepository)
         {
             _logger = logger;
+            _weatherRepository = weatherRepository;
         }
 
         [HttpGet]
+        [Route("sampledata")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
@@ -34,6 +42,14 @@ namespace CoreAPI_Practise.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet]
+        [Route("weatherdata")]
+        public async Task<IActionResult> GetWeatherList()
+        {
+            var weatherData = await _weatherRepository.GetWeather();
+            return Ok(weatherData);
         }
     }
 }

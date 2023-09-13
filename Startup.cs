@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreAPI_Practise.Context;
+using CoreAPI_Practise.Contracts;
+using CoreAPI_Practise.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +29,9 @@ namespace CoreAPI_Practise
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton<DapperContext>();
+            services.AddScoped<IWeatherRepository, WeatherRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
